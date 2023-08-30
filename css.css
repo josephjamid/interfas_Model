@@ -6,30 +6,27 @@ html,body{
 header{
     background-color: aqua;
     height: 60px;
+    grid-area: header;
 }
-section{
-    display: flex;
-    flex-direction:  row-reverse;
-    background-color: rgb(4, 247, 85);
-    overflow: hidden;
-  
-    
-}
+s
 nav{
     background-color: rgb(226, 129, 129);
+    grid-area: menu;
     
     width: 25%;   
 }
 article{
     background-color: rgb(104, 104, 230);
     
-    width: 75%;
+    
     height: 80px;
+    grid-area: content;
 }
 footer{
     clear: both;
     background-color: aquamarine;
     height: 120px;
+    grid-area: footer;
 }
 
 
@@ -40,4 +37,10 @@ footer{
     background-color: blueviolet;
     margin: 0 auto;
     max-width: 800px;
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "menu content content content " 
+    "footer footer footer footer ";
+
 }
