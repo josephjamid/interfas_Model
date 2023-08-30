@@ -8,18 +8,21 @@ header{
     height: 60px;
 }
 section{
+    display: flex;
+    flex-direction:  row-reverse;
     background-color: rgb(4, 247, 85);
     overflow: hidden;
+  
     
 }
 nav{
     background-color: rgb(226, 129, 129);
-    float: left;
+    
     width: 25%;   
 }
 article{
     background-color: rgb(104, 104, 230);
-    float: left;
+    
     width: 75%;
     height: 80px;
 }
@@ -32,6 +35,7 @@ footer{
 
 
 #contenedor {
+
 
     background-color: blueviolet;
     margin: 0 auto;
