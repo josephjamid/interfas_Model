@@ -1,0 +1,39 @@
+html,body{
+    padding: 0;
+    margin: 0
+    ;
+}
+header{
+    background-color: aqua;
+    height: 60px;
+}
+section{
+    background-color: rgb(4, 247, 85);
+    overflow: hidden;
+    
+}
+nav{
+    background-color: rgb(226, 129, 129);
+    float: left;
+    width: 25%;   
+}
+article{
+    background-color: rgb(104, 104, 230);
+    float: left;
+    width: 75%;
+    height: 80px;
+}
+footer{
+    clear: both;
+    background-color: aquamarine;
+    height: 120px;
+}
+
+
+
+#contenedor {
+
+    background-color: blueviolet;
+    margin: 0 auto;
+    max-width: 800px;
+}
